@@ -1,0 +1,39 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+}
+
+.container h2 {
+  color: #171717;
+  font-family: nimbusSansBold;
+  font-size: 36px;
+  text-align: center;
+}
+.container h2 span {
+  color: var(--primary-color)
+}
+
+#perfil-image {
+  height: 150px;
+  margin: 30px;
+}
+
+#description {
+  max-width: 600px;
+  text-align: center;
+  margin: 15px 30px;
+  font-size: 20px;
+}
+
+#about-icon {
+  height: 80px;
+}
+
+@media (max-width: 576px) {
+  .container {
+    padding: 10px;
+  }
+}
