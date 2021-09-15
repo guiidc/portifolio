@@ -1,0 +1,67 @@
+.container-red {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+  background-color: var(--primary-color);
+}
+
+.container-red h2 {
+  color: white;
+  text-align: center;
+  font-size: 36px;
+}
+
+.projects-container {
+  max-width: 1000px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.project-thumbnail {
+ margin: 15px;
+ height: 150px;
+}
+
+.container-red p {
+  text-align: center;
+  font-size: 18px;
+  color: white;
+  text-decoration: none;
+  margin: 10px 0 20px 0;
+}
+
+.container-red p a {
+  text-decoration: none;
+  font-style: italic;
+  color: white;
+}
+
+#github-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: none;
+  border: none;
+  border: 2px solid white;
+  border-radius: 20px;
+  height: 40px;
+  padding: 10px;
+  margin: 30px;
+}
+
+#github-button a {
+  color: white;
+  text-decoration: none;
+  margin: 0 5px;
+}
+
+@media (max-width: 576px) {
+  .project-thumbnail {
+    margin: 15px;
+    height: 120px;
+   }
+   
+}

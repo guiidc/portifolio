@@ -1,4 +1,4 @@
-.container {
+.container-white {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -6,19 +6,19 @@
   padding: 50px;
 }
 
-.container h2 {
+.container-white h2 {
   color: #171717;
   font-family: nimbusSansBold;
   font-size: 36px;
   text-align: center;
 }
-.container h2 span {
+.container-white h2 span {
   color: var(--primary-color)
 }
 
 #perfil-image {
   height: 150px;
-  margin: 30px;
+  margin: 0 0 30px;
 }
 
 #description {
@@ -33,7 +33,7 @@
 }
 
 @media (max-width: 576px) {
-  .container {
+  .container-white {
     padding: 10px;
   }
 }

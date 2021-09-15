@@ -5,7 +5,7 @@ import '../css/About.css';
 
 export default function About() {
  return (
-   <div className="container">
+   <div className="container-white">
      <img
       src={ perfil }
       alt="foto de perfil de Guilherme"
