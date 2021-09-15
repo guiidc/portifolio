@@ -1,0 +1,21 @@
+@font-face {
+  font-family: nimbusSansRegular;
+  src: url('../fonts/NimbusSanL-Reg.otf');
+}
+
+@font-face {
+  font-family: nimbusSansBold;
+  src: url('../fonts/NimbusSanL-Bol.otf');
+}
+
+:root {
+  --primary-color: #F34336;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  font-family: nimbusSansRegular;
+  box-sizing: border-box;
+}
