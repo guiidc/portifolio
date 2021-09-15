@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/portifolio/static/css/main.2088a4cc.chunk.css",
+    "main.css": "/portifolio/static/css/main.eb0e5dca.chunk.css",
     "main.js": "/portifolio/static/js/main.838ce8d3.chunk.js",
     "main.js.map": "/portifolio/static/js/main.838ce8d3.chunk.js.map",
     "runtime-main.js": "/portifolio/static/js/runtime-main.65d4277b.js",
@@ -8,7 +8,7 @@
     "static/js/2.35f191bf.chunk.js": "/portifolio/static/js/2.35f191bf.chunk.js",
     "static/js/2.35f191bf.chunk.js.map": "/portifolio/static/js/2.35f191bf.chunk.js.map",
     "index.html": "/portifolio/index.html",
-    "static/css/main.2088a4cc.chunk.css.map": "/portifolio/static/css/main.2088a4cc.chunk.css.map",
+    "static/css/main.eb0e5dca.chunk.css.map": "/portifolio/static/css/main.eb0e5dca.chunk.css.map",
     "static/js/2.35f191bf.chunk.js.LICENSE.txt": "/portifolio/static/js/2.35f191bf.chunk.js.LICENSE.txt",
     "static/media/App.css": "/portifolio/static/media/NimbusSanL-Reg.a520cb1a.otf",
     "static/media/about-icon.cb88893f.svg": "/portifolio/static/media/about-icon.cb88893f.svg",
@@ -20,7 +20,7 @@
   "entrypoints": [
     "static/js/runtime-main.65d4277b.js",
     "static/js/2.35f191bf.chunk.js",
-    "static/css/main.2088a4cc.chunk.css",
+    "static/css/main.eb0e5dca.chunk.css",
     "static/js/main.838ce8d3.chunk.js"
   ]
 }
