@@ -11,6 +11,9 @@
 :root {
   --primary-color: #F34336;
 }
+html {
+  scroll-behavior: smooth;
+}
 
 * {
   margin: 0;

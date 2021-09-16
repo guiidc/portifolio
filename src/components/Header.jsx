@@ -38,10 +38,10 @@ class Header extends Component {
         </div>
         <nav id="nav" className={ navStatus }>
           <ul id="menu">
-            <li><a onClick={ this.handleClick } href="#home">Home</a></li>
+            {/* <li><a onClick={ this.handleClick } href="#home">Home</a></li> */}
             <li><a onClick={ this.handleClick } href="#about">Sobre</a></li>
             <li><a onClick={ this.handleClick } href="#projects">Projetos</a></li>
-            <li><a onClick={ this.handleClick } href="#technologys">Tecnologias</a></li>
+            <li><a onClick={ this.handleClick } href="#technologies">Tecnologias</a></li>
             <li><a onClick={ this.handleClick } href="#contact">Contato</a></li>
           </ul>
         </nav>

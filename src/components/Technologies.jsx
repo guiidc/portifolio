@@ -11,39 +11,39 @@ import illustratorIcon from '../icons/tech-illustrator-icon.svg';
 
 export default function Technologies() {
   return (
-    <div className="container-gray">
+    <div id="technologies" className="container-gray">
       <h2>Algumas Tecnologias</h2>
       <div className="tech-icons-container">
           <div className="tech-icon">
-            <img className="tech-img" src={ javaScriptIcon }/>
+            <img className="tech-img" src={ javaScriptIcon } alt="icone do logotipo do JavaScript" />
             <span>JavaScript</span>
           </div>
           <div className="tech-icon">
-            <img className="tech-img" src={ reactIcon }/>
+            <img className="tech-img" src={ reactIcon } alt="icone do logotipo do React" />
             <span>JReact</span>
           </div>
           <div className="tech-icon">
-            <img className="tech-img" src={ nodeIcon }/>
+            <img className="tech-img" src={ nodeIcon } alt="icone do logotipo do NodeJs" />
             <span>NodeJS</span>
           </div>
           <div className="tech-icon">
-            <img className="tech-img" src={ htmlIcon }/>
+            <img className="tech-img" src={ htmlIcon } alt="Icone do logotipo do HTML" />
             <span>HTML</span>
           </div>
           <div className="tech-icon">
-            <img className="tech-img" src={ cssIcon }/>
+            <img className="tech-img" src={ cssIcon } alt="Icone do logotipo do CSS" />
             <span>CSS</span>
           </div>
           <div className="tech-icon">
-            <img className="tech-img" src={ pythonIcon }/>
+            <img className="tech-img" src={ pythonIcon } alt="icone do logotipo do Python" />
             <span>Python</span>
           </div>
           <div className="tech-icon">
-            <img className="tech-img" src={ photoshopIcon }/>
+            <img className="tech-img" src={ photoshopIcon } alt="Icones do logotpo do Photoshop" />
             <span>Photoshop</span>
           </div>
           <div className="tech-icon">
-            <img className="tech-img" src={ illustratorIcon }/>
+            <img className="tech-img" src={ illustratorIcon } alt="Icone do logotipo do Illustrator" />
             <span>Illustrator</span>
           </div>
       </div>
