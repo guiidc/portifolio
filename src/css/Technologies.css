@@ -1,0 +1,42 @@
+.container-gray {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+  background-color: #171717;
+}
+
+.container-gray h2 {
+  color: white;
+  font-size: 30px;
+  text-align: center;
+}
+
+.tech-icons-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+  margin: 30px;
+}
+
+.tech-icon {
+  display: flex;
+  min-width: 110px;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  padding: 15px;
+  color: white;
+  background: rgba(255, 255, 255, 0.03);
+  border-radius: 5px;
+}
+
+.tech-img {
+  height: 50px;
+}
+
+.tech-icon span {
+  margin: 10px 0 0;
+}
