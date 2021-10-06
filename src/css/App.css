@@ -22,3 +22,7 @@ html {
   font-family: nimbusSansRegular;
   box-sizing: border-box;
 }
+
+.App {
+  overflow-x: hidden;
+}
